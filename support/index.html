@@ -29,20 +29,22 @@
   <nav class="container nav" aria-label="Main">
     <a class="logo" href="/" aria-label="RuBuild Services home"><img src="/assets/img/rubuild-mark.svg" alt="" width="30" height="36"><b>Ru<span>Build</span></b></a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
-    <ul class="nav-links" id="nav-links"><li><a href="/">Home</a></li><li><a href="/#products">Products</a></li><li><a href="/products/rightowner/">RightOwner</a></li><li><a href="/services/">Services</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul>
+    <ul class="nav-links" id="nav-links"><li><a href="/">Home</a></li><li><a href="/#products">Products</a></li><li><a href="/products/rightowner/">RightOwner</a></li><li><a href="/products/winsprout/">Winsprout</a></li><li><a href="/services/">Services</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul>
   </nav>
 </header>
 <main id="main">
 <section class="hero page-hero" style="padding:0"><div class="container"><span class="eyebrow">Help</span><div><h1>RightOwner support</h1><p class="lead">Setup steps, answers and how to reach us.</p></div></div></section>
 
 <section><div class="container prose">
-  <div class="note"><b>Need help?</b> Email <a href="mailto:support@rubuild.com">support@rubuild.com</a>. We reply within 3 business days (Monday to Friday, India Standard Time).</div>
+  <div class="note"><b>Need help?</b> Email <a href="mailto:support@rubuild.com">support@rubuild.com</a>. We reply within 3 business days (Monday to Friday, India Standard Time).<br>Looking for help with Winsprout? See the <a href="/winsprout/support.html">Winsprout help page</a>.</div>
   <h2>Getting started with RightOwner</h2>
   <ol>
     <li>Install RightOwner from the Microsoft Teams app store or Microsoft AppSource.</li>
     <li>A Microsoft 365 admin opens it first, approves the app's permissions, and clicks <b>Create the directory</b>. This creates a SharePoint list called “RightOwner Directory” on your company's SharePoint home site.</li>
     <li>Add items manually, or import a spreadsheet (CSV) with the columns: Item, Category, Description, Owner email, Backup email. Use <b>More → Download CSV template</b> for an example.</li>
-    <li>Anyone with access to your SharePoint home site can search RightOwner in Teams. People with edit access to that site can add and update items.</li>
+    <li>Anyone with access to your SharePoint home site can search RightOwner in Teams. People with Edit access to that site can add entries.</li>
+    <li>An entry can be changed or deleted only by its owner, its backup or the person who added it. Everyone else can view it and use <b>Chat with owner</b> to ask for a change.</li>
+    <li><b>More → Activity history</b> shows every add, edit, delete and import made in RightOwner, who made it and when. Deleted entries can be restored from there. The history is kept in a SharePoint list called “RightOwner Activity Log” on the same site.</li>
   </ol>
   <h2>Plans and billing</h2>
   <ul>
@@ -51,9 +53,10 @@
     <li>To change or cancel, go to the Microsoft 365 admin center → Billing → Your products.</li>
   </ul>
   <h2>Common questions</h2>
-  <details><summary>Who can add or edit items?</summary><p>Anyone with Edit access to your company's SharePoint home site. Everyone else can search and view. Your admin controls this in SharePoint.</p></details>
+  <details><summary>Who can add, edit or delete entries?</summary><p>Anyone with Edit access to your company's SharePoint home site can add entries. An entry can be changed or deleted only by its owner, its backup or the person who added it. Everyone else can search and view. Your admin controls Edit access in SharePoint.</p></details>
+  <details><summary>What if something is deleted by mistake?</summary><p>Open <b>More → Activity history</b>. It lists every add, edit and delete with who made it and when, and deleted entries have a <b>Restore</b> button.</p></details>
   <details><summary>What happens when an owner leaves the company?</summary><p>RightOwner flags items whose owner's account is disabled or removed. Use <b>Hand over their items</b> to move them to someone new in one step.</p></details>
-  <details><summary>How do I remove RightOwner and its data?</summary><p>Uninstall the app from Teams, then delete the RightOwner SharePoint list. Your admin can remove the app's permissions in Microsoft Entra ID. If you had a paid plan, cancel it in the Microsoft 365 admin center.</p></details>
+  <details><summary>How do I remove RightOwner and its data?</summary><p>Uninstall the app from Teams, then delete the RightOwner SharePoint lists (“RightOwner Directory” and “RightOwner Activity Log”). Your admin can remove the app's permissions in Microsoft Entra ID. If you had a paid plan, cancel it in the Microsoft 365 admin center.</p></details>
   <details><summary>Does RightOwner send our data anywhere?</summary><p>Your directory data stays in your Microsoft 365. For paid plans, the app sends only your organization's Microsoft tenant ID to our billing service to check which plan you have.</p></details>
   <h2>Report a security issue</h2>
   <p>Email <a href="mailto:support@rubuild.com?subject=SECURITY">support@rubuild.com</a> with “SECURITY” in the subject line.</p>
@@ -67,11 +70,11 @@
         <a class="logo" href="/"><img src="/assets/img/rubuild-mark-white.svg" alt="" width="30" height="36"><b>Ru<span>Build</span></b></a>
         <p style="margin:14px 0 0;max-width:320px">We build Microsoft 365 apps that solve everyday work problems.</p>
       </div>
-      <div><h4>Product</h4><ul><li><a href="/products/rightowner/">RightOwner</a></li><li><a href="/products/rightowner/#pricing">Pricing</a></li><li><a href="/faq/">FAQ</a></li></ul></div>
+      <div><h4>Products</h4><ul><li><a href="/products/rightowner/">RightOwner</a></li><li><a href="/products/winsprout/">Winsprout</a></li><li><a href="/products/rightowner/#pricing">RightOwner pricing</a></li><li><a href="/faq/">FAQ</a></li></ul></div>
       <div><h4>Company</h4><ul><li><a href="/about/">About</a></li><li><a href="/services/">Services</a></li><li><a href="/contact/">Contact</a></li></ul></div>
       <div><h4>Help &amp; legal</h4><ul><li><a href="/support/">Support</a></li><li><a href="/privacy/">Privacy policy</a></li><li><a href="/terms/">Terms of use</a></li></ul></div>
     </div>
-    <div class="footer-bottom">© 2026 RuBuild Services. Microsoft, Microsoft 365, Teams, SharePoint, Outlook, AppSource and Copilot are trademarks of the Microsoft group of companies. RuBuild Services is an independent company and is not affiliated with or endorsed by Microsoft.</div>
+    <div class="footer-bottom">© 2026 RuBuild Services. Microsoft, Microsoft 365, Teams, SharePoint, OneDrive, Outlook, Word, AppSource and Copilot are trademarks of the Microsoft group of companies. RuBuild Services is an independent company and is not affiliated with or endorsed by Microsoft.</div>
   </div>
 </footer>
 <script src="/assets/site.js" defer></script>

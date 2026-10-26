@@ -200,3 +200,25 @@ details p { margin: 0 0 18px; color: var(--muted); }
 .coming h3 { margin: 0 0 4px; }
 @media (max-width: 960px) { .product { grid-template-columns: 1fr; padding: 26px; } }
 .soon { display: inline-block; background: #fff7e6; color: #8a5a00; border: 1px solid #f3d9a4; font-weight: 700; font-size: 14px; padding: 6px 14px; border-radius: 999px; }
+
+/* ---------- Winsprout (added 18 Oct 2026) ---------- */
+.product-2 { margin-top: 26px; }
+.btn-soon { background: #fff; color: var(--muted); border-color: var(--line); cursor: default; }
+.btn-soon:hover { transform: none; }
+.hero-light { color: var(--ink); background: linear-gradient(180deg, #ffffff 0%, #f6f2ff 100%); border-bottom: 1px solid var(--line); }
+.hero-light::before { background-image: radial-gradient(rgba(91,47,201,.07) 1px, transparent 1px); }
+.hero-light .eyebrow { background: #fff; color: var(--brand); border: 1px solid var(--line); }
+.hero-light p.lead { color: var(--muted); opacity: 1; }
+.hero-light .hero-shot { box-shadow: 0 24px 60px rgba(60,20,140,.16); border-color: var(--line); }
+.pills { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 20px 0 0; }
+.pills li { background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: 14px; color: var(--muted); font-weight: 600; }
+.cta-light { background: var(--brand-soft); color: var(--ink); border: 1px solid var(--line); }
+.cta-light p { color: var(--muted); opacity: 1; }
+.tablewrap { overflow-x: auto; margin: 0 0 18px; }
+.perm-table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 15px; background: #fff; }
+.perm-table th, .perm-table td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+.perm-table th { background: var(--bg-alt); }
+.legal-product { padding: 0; scroll-margin-top: 90px; }
+.legal-product + .legal-product { border-top: 2px solid var(--line); margin-top: 48px; padding-top: 32px; }
+.legal-title { color: var(--brand); }
+@media (max-width: 960px) and (min-width: 721px) { .nav-links { gap: 16px; } .nav-links a { font-size: 14px; } }
