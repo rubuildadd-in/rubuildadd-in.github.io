@@ -387,3 +387,24 @@ details p { margin: 0 0 18px; color: var(--muted); }
 .page-hero .container { gap: 6px; }
 .quotes { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; max-width: 900px; margin: 0 auto; }
 .quote { background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 10px 18px; font-weight: 600; color: var(--brand-dark); box-shadow: var(--shadow-sm); }
+
+/* ---------- RuBuild Panel (7 Nov 2026) ---------- */
+.pn-hero { background: radial-gradient(900px 500px at 90% -5%, #e9e1ff 0%, rgba(233,225,255,0) 60%), radial-gradient(700px 420px at -6% 105%, #eaf4ff 0%, rgba(234,244,255,0) 60%), #fff; }
+.page-hero.pn-hero .container { grid-template-columns: 1fr; }
+.sc-stage.t-pn, .pcard-art.t-pn { background: linear-gradient(140deg, #f4f0ff, #e6eefc); }
+.sc-stage.t-pn { padding: 22px; }
+.sc-stage.t-pn picture { width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 20px 44px rgba(60,20,140,.18); border: 1px solid rgba(255,255,255,.7); }
+.pcard-art.t-pn { padding: 30px 30px 0; }
+.pcard-art.t-pn picture { border-radius: 12px 12px 0 0; overflow: hidden; box-shadow: 0 -6px 40px rgba(60,20,140,.14); }
+.pgrid { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.pn-feats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; }
+.pn-feat { background: #fff; border: 1px solid var(--line); border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-sm); transition: transform .25s, box-shadow .25s; }
+.pn-feat:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.pn-shot { background: var(--bg-alt); border-bottom: 1px solid var(--line); }
+.pn-feat-body { padding: 22px 26px 26px; }
+.pn-feat h3 { margin: 0 0 8px; font-size: 21px; letter-spacing: -.01em; }
+.pn-feat p { margin: 0; color: var(--muted); }
+.pn-pricing { grid-template-columns: repeat(2, 1fr); max-width: 860px; margin: 0 auto; }
+@media (max-width: 1100px) { .pgrid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); } }
+@media (max-width: 720px) { .pn-feats, .pn-pricing { grid-template-columns: 1fr; } .pgrid { grid-template-columns: 1fr; } }
+.pcard .tag { margin: 0 0 14px; }
