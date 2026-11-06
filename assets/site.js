@@ -1,6 +1,6 @@
 // RuBuild site: mobile menu + AppSource links
 (function () {
-  var APPSOURCE_URL = "";
+  var APPSOURCE_URL = "https://marketplace.microsoft.com/en-us/product/WA200013100";
   var btn = document.querySelector(".menu-btn"), links = document.getElementById("nav-links");
   if (btn && links) btn.addEventListener("click", function () {
     var open = links.classList.toggle("open"); btn.setAttribute("aria-expanded", open ? "true" : "false");

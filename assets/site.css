@@ -33,7 +33,7 @@ a:hover { color: var(--brand-dark); }
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.92); backdrop-filter: saturate(160%) blur(10px); border-bottom: 1px solid var(--line); }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
 .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--brand-dark); }
-.logo img { width: 30px; height: 36px; }
+.logo img { width: 34px; height: 34px; }
 .logo b { font-size: 21px; font-weight: 800; letter-spacing: -.02em; }
 .logo b span { color: var(--brand); }
 .nav-links { display: flex; align-items: center; gap: 26px; list-style: none; margin: 0; padding: 0; }
