@@ -19,8 +19,9 @@
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css?v=3">
+<script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "RuBuild Services", "url": "https://rubuild.com", "logo": "https://rubuild.com/assets/img/apple-touch-icon.png", "email": "support@rubuild.com", "address": {"@type": "PostalAddress", "addressCountry": "IN"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "RightOwner", "applicationCategory": "BusinessApplication", "operatingSystem": "Microsoft Teams", "description": "A directory of owners and backups for every system, process, vendor and budget, inside Microsoft Teams.", "publisher": {"@type": "Organization", "name": "RuBuild Services"}, "offers": [{"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD"}, {"@type": "Offer", "name": "Pro", "price": "29", "priceCurrency": "USD"}, {"@type": "Offer", "name": "Business", "price": "79", "priceCurrency": "USD"}]}</script>
 </head>
 <body>
@@ -29,11 +30,11 @@
   <nav class="container nav" aria-label="Main">
     <a class="logo" href="/" aria-label="RuBuild Services home"><img src="/assets/img/rubuild-icon.svg" alt="" width="34" height="34"><b>Ru<span>Build</span></b></a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
-    <ul class="nav-links" id="nav-links"><li><a href="/">Home</a></li><li><a href="/#products">Products</a></li><li><a href="/products/rightowner/" aria-current="page">RightOwner</a></li><li><a href="/services/">Services</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul>
+    <ul class="nav-links" id="nav-links"><li class="nav-drop active"><button type="button" aria-expanded="false" aria-controls="prod-drop">Products <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="drop" id="prod-drop"><a href="/products/rightowner/" aria-current="page"><img src="/assets/img/rightowner-icon.png" alt="" width="40" height="40"><div><b>RightOwner</b><span>for Microsoft Teams · Know who owns every system, process, vendor and budget.</span></div></a><a href="/puzzles/"><img src="/assets/img/puzzles-icon.png" alt="" width="40" height="40"><div><b>RuBuild Puzzles</b><span>for Edge and Chrome · Two calm puzzle games in your browser toolbar.</span></div></a><a class="drop-all" href="/#products">See all products</a></div></li><li><a href="/about/">About</a></li><li><a href="/support/">Support</a></li><li><a href="/contact/">Contact</a></li></ul>
   </nav>
 </header>
 <main id="main">
-
+<div class="pbar"><div class="container"><span class="pbar-label">Our products</span><a class="pchip" href="/products/rightowner/" aria-current="page"><img src="/assets/img/rightowner-icon.png" alt="" width="26" height="26">RightOwner <small>for Microsoft Teams</small></a><a class="pchip" href="/puzzles/"><img src="/assets/img/puzzles-icon.png" alt="" width="26" height="26">RuBuild Puzzles <small>for Edge and Chrome</small></a></div></div>
 <section class="hero">
   <div class="container">
     <div>
@@ -43,7 +44,7 @@
       <div class="hero-actions"><a class="btn btn-light appsource" href="/products/rightowner/"><span class="lbl">Get RightOwner on Microsoft Marketplace</span></a><a class="btn btn-ghost" href="#pricing">See pricing</a></div>
       <p class="hero-note">Free for up to 25 items · Pro and Business plans launching soon</p>
     </div>
-    <div class="hero-shot"><picture><source srcset="/assets/img/shot-search.webp" type="image/webp"><img src="/assets/img/shot-search.jpg" alt="Searching the RightOwner directory in Microsoft Teams" width="1200" height="675"></picture></div>
+    <div class="hero-shot"><picture><source srcset="/assets/img/shot-ro-light.webp" type="image/webp"><img src="/assets/img/shot-ro-light.jpg" alt="The RightOwner directory in Microsoft Teams, showing each entry's owner and backup" width="1240" height="762"></picture></div>
   </div>
 </section>
 
@@ -141,15 +142,16 @@
     <div class="footer-grid">
       <div>
         <a class="logo" href="/"><img src="/assets/img/rubuild-icon.svg" alt="" width="34" height="34"><b>Ru<span>Build</span></b></a>
-        <p style="margin:14px 0 0;max-width:320px">We build Microsoft 365 apps that solve everyday work problems.</p>
+        <p style="margin:14px 0 0;max-width:320px">Small, well-made apps for work and for a break: Microsoft 365 apps and browser extensions.</p>
       </div>
-      <div><h4>Products</h4><ul><li><a href="/products/rightowner/">RightOwner</a></li><li><a href="/products/rightowner/#pricing">RightOwner pricing</a></li><li><a href="/faq/">FAQ</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="/about/">About</a></li><li><a href="/services/">Services</a></li><li><a href="/contact/">Contact</a></li></ul></div>
-      <div><h4>Help &amp; legal</h4><ul><li><a href="/support/">Support</a></li><li><a href="/privacy/">Privacy policy</a></li><li><a href="/terms/">Terms of use</a></li></ul></div>
+      <div><h4>Products</h4><ul><li><a href="/products/rightowner/">RightOwner</a></li><li><a href="/products/rightowner/#pricing">RightOwner pricing</a></li><li><a href="/puzzles/">RuBuild Puzzles</a></li><li><a href="/puzzles/#pro">RuBuild Puzzles Pro</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul></div>
+      <div><h4>Help &amp; legal</h4><ul><li><a href="/support/">Support</a></li><li><a href="/faq/">RightOwner FAQ</a></li><li><a href="/privacy/">Privacy policy</a></li><li><a href="/terms/">Terms of use</a></li></ul></div>
+      <div><h4>Puzzles policies</h4><ul><li><a href="/puzzles/privacy/">Privacy policy</a></li><li><a href="/puzzles/terms/">Terms of use and sale</a></li><li><a href="/puzzles/refunds/">Refunds and cancellation</a></li><li><a href="/puzzles/delivery/">Delivery policy</a></li></ul></div>
     </div>
-    <div class="footer-bottom">© 2026 RuBuild Services. Microsoft, Microsoft 365, Teams, SharePoint, OneDrive, Outlook, Word, AppSource and Copilot are trademarks of the Microsoft group of companies. RuBuild Services is an independent company and is not affiliated with or endorsed by Microsoft.</div>
+    <div class="footer-bottom"><p style="margin:0 0 8px">Online payments on rubuild.com are taken only for RuBuild Puzzles Pro, a one-time digital purchase processed by Razorpay. RightOwner paid plans are bought and billed through Microsoft, not on this website.</p>© 2026 RuBuild Services. Microsoft, Microsoft 365, Teams, SharePoint, OneDrive, Outlook, Word, Edge, AppSource and Copilot are trademarks of the Microsoft group of companies. Chrome is a trademark of Google LLC. RuBuild Services is an independent company and is not affiliated with or endorsed by Microsoft or Google.</div>
   </div>
 </footer>
-<script src="/assets/site.js" defer></script>
+<script src="/assets/site.js?v=3" defer></script>
 </body>
 </html>
